@@ -1,0 +1,32 @@
+{
+    "name": "jaylim12/yii2-spreadsheet-export",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "yiisoft/yii2": "^2.0.41",
+        "phpoffice/phpspreadsheet": "~1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Lim",
+            "email": "jaylim12@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"jaylim12\\": ""}
+    }
+}
